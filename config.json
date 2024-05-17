@@ -1,0 +1,6 @@
+{
+    "user_id": "your user id",
+    "helix_id": "your helix id",
+    "helix_token": "your helix token",
+    "change_interval_ms": 2000
+}
