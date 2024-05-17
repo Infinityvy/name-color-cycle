@@ -6,6 +6,7 @@ HOW TO USE:
   - [Windows](https://github.com/Infinityvy/name-color-cycle/raw/main/name-color-cycle-win.zip)
   - [Linux](https://github.com/Infinityvy/name-color-cycle/raw/main/name-color-cycle-linux.zip)
   - [macOS](https://github.com/Infinityvy/name-color-cycle/raw/main/name-color-cycle-macos.zip)
+<br>
 
 3. unzip it
 
@@ -20,8 +21,7 @@ HOW TO USE:
 
 7. save the config and launch the executable to start the color cycling. simply close it to stop
 
-
-
+<br> <br>
 
 THIS IS WHAT YOUR CONFIG SHOULD LOOK LIKE:
 ```json
