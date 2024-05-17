@@ -17,3 +17,14 @@ HOW TO USE:
 5. (optional) you can set the interval at which color change happens in the config too. the duration is in milliseconds (default:2000)
 
 6. save the config and launch the executable to start the color cycling. simply close it to stop
+
+
+THIS IS WHAT YOUR CONFIG SHOULD LOOK LIKE:
+```json
+{
+    "user_id": "79576109",
+    "helix_id": "gp45235dsxfsdf57esf5se5fs7",
+    "helix_token": "xc673se54u354k5d4gr3gdr",
+    "change_interval_ms": 2000
+}
+```
