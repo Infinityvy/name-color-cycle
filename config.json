@@ -2,5 +2,6 @@
     "user_id": "your user id",
     "helix_id": "your helix client id",
     "helix_token": "your helix access token",
-    "change_interval_ms": 2000
+    "change_interval_ms": 2000,
+    "prime_user": true
 }

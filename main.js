@@ -1,8 +1,7 @@
 process.removeAllListeners('warning');
 
 const logger = require('./Logger.js')
-const { getRandomHexCode, changeColor } = require('./ColorUtils.js')
-const config = require('./config.json')
+const { getRandomHexCode, changeColor, getRandomBrokieColor, config } = require('./ColorUtils.js')
 
 
 function changeToRandomColor()
@@ -10,7 +9,20 @@ function changeToRandomColor()
     changeColor(getRandomHexCode())
 }
 
-setInterval(changeToRandomColor, config.change_interval_ms)
+function changeToRandomBrokieColor()
+{
+    changeColor(getRandomBrokieColor())
+}
 
-logger.Log('Color cycle enabled.')
+if(config.prime_user)
+{
+    setInterval(changeToRandomColor, config.change_interval_ms)
+    logger.Log('Color cycle enabled.')
+}
+else
+{
+    setInterval(changeToRandomBrokieColor, config.change_interval_ms)
+    logger.Log('Brokie color cycle enabled.')
+}
+
 
