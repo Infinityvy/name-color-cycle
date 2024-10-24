@@ -14,7 +14,7 @@ HOW TO USE:
    - click generate token
    - at the top now under generated tokens copy the access token into your config under helix_token and your client id under helix_id
 
-5. are YOU a broke boy that doesn't have twitch prime or turbo? Make sure to set prime_user in the config to false! This way only colors available to broke boys will be randomly chosen.
+5. (optional) are YOU a broke boy that doesn't have twitch prime or turbo? Make sure to set prime_user in the config to false! This way only colors available to broke boys will be randomly chosen.
 
 6. (optional) you can set the interval at which color change happens in the config too. the duration is in milliseconds (default:2000)
 
